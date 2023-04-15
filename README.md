@@ -2,6 +2,8 @@
 
 This repository contains the source code for the [Automate Generation of Documents], instead of writing them manually, and each time we change the name of the destinataire, we automatically change the name of the destinataire in the document, by using a template.
 
+Note: This is a just example of applying it to job application letters, but you can use it for any document you want to generate.
+
 We utilise:
 - the [Jinja2] template engine to generate the documents
 - PDFKit to convert the HTML to PDF
